@@ -1,0 +1,3 @@
+Linux or MacOS:     docker run --rm -it -v $pwd:/root/env myos-buildenv
+Windows (cmd):      docker run --rm -it -v %cd%:/root/env myos-buildenv
+Windows (PS):       docker run --rm -it -v ${PWD}:/root/env myos-buildenv
